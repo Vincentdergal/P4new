@@ -800,7 +800,7 @@ h4 {
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .ltc-white {
@@ -887,10 +887,6 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        /*padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }*/
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -899,11 +895,7 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        /*padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);*/
     }
-}
-
 @media (max-width: 767px) {
     .page-container {
         overflow-x: hidden;
@@ -1054,4 +1046,5 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+ }
 }
