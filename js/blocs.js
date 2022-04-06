@@ -2,8 +2,7 @@
 function setUpSpecialNavs() {
     $(".navbar-toggle").click(function(t) {
         var e = $(this).closest("nav"),
-            i = e.find("ul.site-navigat
-            ion"),
+            i = e.find("ul.site-navigation"),
             a = i.clone();
         if (i.parent().hasClass("nav-special"))
             if (t.stopPropagation(), $(this).hasClass("selected-nav")) $(".blocsapp-special-menu blocsnav").removeClass("open"), $(".selected-nav").removeClass("selected-nav"), setTimeout(function() {
@@ -55,8 +54,7 @@ function setFillScreenBlocHeight() {
 }
 
 function getFillHeight() {
-    var t = $(window).h
-    eight();
+    var t = $(window).height();
     return t < fillBodyHeight && (t = fillBodyHeight + 100), t
 }
 
