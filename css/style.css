@@ -833,11 +833,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("../imgredi/agence-la-panthere.jpg");
+    background-image: url("../imgredi/agence-la-panthere.jpeg");
 }
 
 .bg-presentation {
-    background-image: url("../imgredi/image-de-presentation.jpg");
+    background-image: url("../imgredi/image-de-presentation.jpeg");
 }
 
 @media (max-width: 1024px) {
